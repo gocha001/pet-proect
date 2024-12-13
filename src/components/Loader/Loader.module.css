@@ -1,0 +1,15 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+}
+
+.loader {
+  &RotatingLines {
+    visibility: visible;
+    height: 96px;
+    width: 96px;
+    color: green;
+  }
+}
